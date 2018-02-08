@@ -1,0 +1,132 @@
+.ojBar {
+	margin: 0;
+	padding: 0;
+	height: 75px;
+	width: 100%;
+	background-color: orange;
+}
+
+.orangeLogo {
+	display: inline-block;
+	margin: 25px 0 0 0;
+	font-weight: bold;
+	font-size: 20px;
+	height: 50px;
+	color: white;
+}
+
+.juiceLogo {
+	display: inline-block;
+	color: #DDDDDD;
+	font-size: 20px;
+}
+
+.orangeSlice {
+	display: inline-block;
+	margin: 0 0 0 75px;
+}
+
+.juiceLogo sup {
+	vertical-align: super;
+	font-size: 10px;
+}
+
+ul {
+	display: inline-block;
+	font-weight: normal;
+	color: #DDDDDD;
+	float: right;
+	margin: 30px 30px 0 0;
+
+}
+
+.headerLinks {
+	display: inline-block;
+	padding: 0 10px 0 10px;
+}
+
+.orangeImg {
+	width: 45%;
+	padding: 100px 0 0 0;
+	display:inline-block;
+	float: left;
+}
+
+.rightSide {
+	width: 55%;
+	display:inline-block;
+	float: right;
+}
+
+.rightSide .text {
+	padding: 50px 50px 0 0;
+	color: orange;
+	font-family: "courier new";
+	font-size: 30px;
+	word-wrap: break-word;
+}
+
+.rightSide sup {
+	vertical-align: super;
+	font-size: 18px;
+}
+
+.searchBar {
+	float: right;
+	margin: 15px 50px 0 0;
+	box-shadow: 10px 10px 1px grey;
+	background-color:lightgrey;
+}
+
+.midSection #searchBar {
+	background-color:lightgrey;
+	padding: 6px
+	margin-top: 5px;
+	border: none;
+	font-size: 25px;
+}
+
+#icon {
+	position: relative;
+	z-index: 1;
+	left: -25px;
+	top: -2px;
+	color: #7B7B7B;
+	cursor:pointer;
+	width: 0;
+}
+
+.quoteBox {
+	background-color:lightseagreen;
+	text-align: center;
+	display:inline-block;
+	width: 42%;
+	float: left;
+}
+
+.caseBox {
+	background-color:orange;
+	text-align: center;
+	display:inline-block;
+	margin-right: 50px;
+	float:right;
+	width: 42%;
+}
+
+.bottomNav {
+	background-color:lightseagreen;
+	height:100px;
+	width:100%;
+	display:inline-block;
+}
+
+.navIcons {
+	margin-top:20px;
+	color:white;
+	font-size: 25px;
+	text-align: center;
+}
+
+.navIcons .fa {
+	margin: 0 20px;
+}
